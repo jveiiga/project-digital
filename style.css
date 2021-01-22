@@ -1,0 +1,299 @@
+body { 
+    margin: 0;
+    margin-top: 29px;
+    padding: 0;
+    font-family: 'TT Hoves';
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1035px;
+    margin: 0 auto;
+    height: 42px;
+    margin-bottom: 40px;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    background-image: url("images/logo.png");
+    background-repeat: no-repeat;
+    Width: 70px;
+    Height: 42px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 0.2em;
+    color: #333333;
+    margin-left: 60px;
+}
+
+.border-up {
+    background-image: url("images/border-detail.png");
+    background-repeat: no-repeat;
+    height: 2px;
+    width: 68px;
+    position: absolute;
+    margin-left: 85px;
+    margin-top: 14px;
+}
+ 
+.border-low {
+    background-image: url("images/border-detail.png");
+    background-repeat: no-repeat;
+    height: 2px;
+    width: 68px;
+    position: absolute;
+    margin-left: 85px;
+    margin-top: -14px;
+}
+
+.container-total-page-one {
+    max-width: 1169px;
+    margin: 0 auto;
+}
+
+.container-project-nurtown {
+    display: flex;
+    height: 829px;
+    width: 1170px;
+}
+
+.project-nurtown-division-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 829px;
+    width: 400px;
+}
+
+.container-text-project-nurtown {
+    height: 125px;
+    width: 400px;
+}
+
+.text-project p {
+    font-size: 64px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #BDBDBD;
+    height: 64px;
+    width: 277px;
+}
+
+.text-nurtown p {
+    font-size: 64px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333333;
+    height: 64px;
+    width: 331px;
+    margin: 0;
+}
+
+.container-slider {
+    display: flex;
+    margin-top: 103px;
+    height: 55px;
+    width: 400px;
+}
+
+.border-detail-left {
+    border: 1px solid;
+    width: 53px;
+    height: 53px;
+    color: #F2F2F2;
+}
+
+.arrow-left {
+    background-image: url("images/icon/seta-esquerda.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-top: 23px;
+    margin-left: 17px;
+    width: 53px;
+    height: 53px;
+}
+
+.arrow-right {
+    background-image: url("images/icon/seta-direita.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-top: 23px;
+    margin-left: 100px;
+    width: 53px;
+    height: 53px;
+}
+
+.border-detail-right {
+    border: 1px solid;
+    width: 53px;
+    height: 53px;
+    color: #F2F2F2;
+    margin-left: 26px; 
+}
+
+.container-number-slider {
+    display: flex;
+    font-size: 24px;
+    font-weight: 200;
+    color: #BDBDBD;
+    width: 400px;
+    height: 35px;
+    margin-top: 90px;
+}
+
+.number-one {
+    margin-right: 27px;
+}
+
+.number-two {
+    margin-left: 27px;
+}
+
+.text-image-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 222px;
+    height: 71px;
+    margin-top: 30px;
+    z-index: 1;
+    margin-left: 400px;
+    background: #ffffff;
+    font-size: 12px;
+    letter-spacing: 3.2px;
+    text-transform: uppercase;
+    
+}
+
+.arrow-image-main {
+    background-image: url("images/icon/seta-direita.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    z-index: 2;
+    margin-left: 580px;
+    margin-bottom: 17px;
+}
+
+.project-nurtown-division-two {
+    background-image: url("images/image-principal.png");
+    background-repeat: no-repeat;
+    width: 770px;
+    height: 829px;
+}
+
+/***************** SECTION ABOUT COMPANY ****************/
+
+.container-total-about-company {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 117px;
+    width: 1170px;
+    height: 465px;
+    background: #FBFBFB;
+}
+
+.container-about-company {
+    display: flex;
+    width: 977px;
+    height: 374px;
+}
+
+.container-images-about-company {
+    display: flex;
+    width: 570px;
+    height: 374px;
+    
+}
+
+.image-about-company-one {
+    width: 270px;
+    height: 265px;
+    margin-bottom: 30px;
+    background-image: url("images/company-one.png");
+    background-repeat: no-repeat;
+}
+
+.container-images-about-company-division-one {
+    width: 270px;
+    height: 435px;
+}
+
+.image-about-company-two {
+    width: 270px;
+    height: 345px;
+    background-image: url("images/company-two.png");
+    background-repeat: no-repeat;
+}
+
+.container-images-about-company-division-two {
+    width: 270px;
+    height: 345px;
+    margin-left: 28px;
+    margin-top: 30px;
+    background-image: url("images/company-three.png");
+    background-repeat: no-repeat;
+}
+
+.container-text-about-company {
+    width: 468px;
+    height: 374px;
+    margin-left: 30px;
+}
+
+.container-title-about-company {
+    width: 467px;
+    height: 75px;
+    font-size: 47px;
+    color: #BDBDBD;
+}
+
+.text-about-company {
+    width: 403px;
+    height: 190px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+}
+
+.detail-text-about-company {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 222px;
+    height: 71px;
+    margin-top: 34px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    background: #ffffff;
+}
+
+.arrow-text-about-company {
+    width: 24px;
+    height: 24px;
+    margin-left: 132px;
+    margin-top: -40px;
+    background-image: url("images/icon/seta-direita.png");
+    background-repeat: no-repeat;
+}
