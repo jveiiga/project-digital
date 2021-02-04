@@ -9,7 +9,7 @@ body {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none;  
 }
 
 p {
@@ -24,10 +24,17 @@ ul {
 
 li {
     text-decoration: none;
+    list-style: none;
 }
 
 li a {
+    display: inline-block;
     text-decoration: none;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
 }
 
 /************ CONTAINER HEADER *************/
@@ -49,25 +56,42 @@ header {
     Height: 42px;
 }
 
-.border-up {
-    background-image: url("images/border-detail.png");
-    background-repeat: no-repeat;
-    height: 2px;
-    width: 40px;
-    position: absolute;
-    margin-left: 99px;
-    margin-top: 10px;
-}
 
 nav {
     font-size: 12px;
     letter-spacing: 0.2em;
     text-transform: uppercase;
     padding-right: 145px;
+}   
+
+nav a {
+    color: #333333;
 }
 
-nav a{
-    color: #333333;
+nav a:before {
+    display: block;
+    content: " ";
+    width: 0;
+    height: 1px;
+    background-color: #333;
+    transition: all 0.5s;
+}
+
+nav a:hover:before {
+    width: 100%;
+}
+
+nav a:after {
+    display: block;
+    content: " ";
+    width: 0;
+    height: 1px;
+    background-color: #333;
+    transition: all 0.2s;
+}
+
+nav a:hover:after {
+    width: 100%;
 }
 
 .container-list-header{
@@ -78,15 +102,6 @@ nav a{
     padding-left: 60px;
 }
  
-.border-low {
-    background-image: url("images/border-detail.png");
-    background-repeat: no-repeat;
-    height: 2px;
-    width: 40px;
-    position: absolute;
-    margin-left: 100px;
-    margin-top: -14px;
-}
 
 /*********** CONTAINER TOTAL **************/
 
@@ -116,7 +131,7 @@ nav a{
     width: 400px;
 }
 
-.text-project p {
+.text-project h1 {
     font-size: 64px;
     font-weight: 300;
     text-transform: uppercase;
@@ -125,7 +140,7 @@ nav a{
     width: 277px;
 }
 
-.text-nurtown p {
+.text-nurtown {
     font-size: 64px;
     font-weight: bold;
     text-transform: uppercase;
@@ -147,6 +162,7 @@ nav a{
     width: 53px;
     height: 53px;
     color: #F2F2F2;
+    background-color: #ffffff;
 }
 
 .arrow-left {
@@ -157,6 +173,7 @@ nav a{
     margin-left: 17px;
     width: 53px;
     height: 53px;
+    
 }
 
 .arrow-right {
@@ -164,7 +181,7 @@ nav a{
     background-repeat: no-repeat;
     position: absolute;
     margin-top: 23px;
-    margin-left: 100px;
+    margin-left: 98px;
     width: 53px;
     height: 53px;
 }
@@ -195,40 +212,47 @@ nav a{
     margin-left: 27px;
 }
 
-.text-image-main {
+.text-image-main { 
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 222px;
-    height: 71px;
-    margin-top: 30px;
-    z-index: 1;
-    margin-left: 400px;
-    background: #ffffff;
+    height: 71px;  
+    z-index: 1;     
     font-size: 12px;
     letter-spacing: 3.2px;
     text-transform: uppercase;
+    border: none;
+    background-color: #ffffff;
     
 }
 
 .arrow-image-main {
     background-image: url("images/icon/seta-direita.png");
     background-repeat: no-repeat;
-    position: absolute;
     width: 24px;
-    height: 24px;
+    height: 11px;
     z-index: 2;
-    margin-left: 580px;
-    margin-bottom: 17px;
+    margin-left: 10px;
+  
 }
 
 .project-nurtown-division-two {
+    display: flex;
+    align-items: flex-end;
     background-image: url("images/image-principal.png");
     background-repeat: no-repeat;
     width: 770px;
     height: 829px;
 }
+
+.container-takealook-main {
+    width: 222px;
+    height: 71px;
+    background: #ffffff;
+}
+
+
 
 /***************** SECTION ABOUT COMPANY ****************/
 
@@ -316,13 +340,13 @@ nav a{
     text-transform: uppercase;
     letter-spacing: 0.2em;
     background: #ffffff;
+    border: none;
 }
 
 .arrow-text-about-company {
     width: 24px;
-    height: 24px;
-    margin-left: 132px;
-    margin-top: -40px;
+    height: 11px;
+    margin-left: 10px;
     background-image: url("images/icon/seta-direita.png");
     background-repeat: no-repeat;
 }
@@ -454,8 +478,11 @@ nav a{
     line-height: 12px;
     letter-spacing: 0.2em;
     text-transform: uppercase;
-    color: #FFFFFF;
     
+}
+
+.container-learn-more p{
+    color: #FFFFFF;
 }
 
 .container-arrow-right-white {

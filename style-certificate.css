@@ -98,320 +98,64 @@ nav a:hover:after {
 .container-list-header li{
     padding-left: 60px;
 }
- 
+
 /*********** CONTAINER TOTAL **************/
 
-.container-total-page-three {
+.container-total-page-four {
     max-width: 1170px;
     margin: 0 auto;
 }
 
 /******************* SECTION TITLE ******************/
 
-.container-title-our-projects {
+.container-total-title-certificate {
     width: 311px;
     height: 135px;
     margin-top: 86px;
 }
 
-.container-title-our {
+.container-title-certificate {
     font-size: 64px;
     font-weight: 300;
     line-height: 64px;
     color: #BDBDBD;
 }
 
-.container-title-projects {
+.container-text-certificate {
     font-size: 64px;
     font-weight: bold;
     line-height: 64px;
     color: #333333;
 }
 
-/************* BORDER DETAIL *************/
+/*************** CONTAINER CERTIFICATE **************/
 
-.border-detail {
-    border: 1px solid #F2F2F2;
-    width: 100%;
-    margin-top: 33px;
-}
-
-/******** SECTION SECONDARY SCHOOL *********/
-
-.container-total-secondary-school {
+.container-certificate {
     display: flex;
-    width: 1170px;
-    height: 435px;
-    background: #FBFBFB;
-    margin-top: 28px;
+    justify-content:space-between;
+    width: 1169px;
+    height: 450px;
+    margin-top: 75px;
 }
 
-.container-image-school {
-    width: 670px;
-    height: 435px;
-    background-image: url("images/image-school.png");
-}
-
-.container-total-text {
-    width: 500px;
-    height: 435px;
-}
-
-.container-total-title-secondary-school {
-    display: flex;
-    justify-content: center;
-    align-items: center;  
-    width: 500px;
-    height: 160px;
-}
-
-.container-title-secondary-school {
-    width: 440px;
-    height: 100px;
-    font-size: 40px;
-    font-weight: 300;
-    color: #BDBDBD;
-
-}
-
-.container-total-text-secondary-school {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 500px;
-    height: 160px;
-}
-
-.container-text-secondary-school {
-    width: 440px;
-    height: 174px;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 25px;
-    color: #000000;
-}
-
-.container-total-look-secondary-school {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 280px;
-    height: 110px;
-}
-
-.container-look-secondary-school {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 222px;
-    height: 71px;
-    background: #FFFFFF;
-    border: none;
-}
-
-.container-text-look-secondary-school {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 90px;
-    height: 24px;
-    font-size: 12px;
-    line-height: 12px;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    color: #333333;
-}
-
-.container-arrow-look {
-    width: 24px;
-    height: 10px;
-    background-image: url("images/icon/seta-direita.png");
+.container-document-one {
+    width: 337px;
+    height: 450px;
+    background-image: url("images/document-one.png");
     background-repeat: no-repeat;
 }
 
-/******** SECTION OFFICE INTERIOR PROJECT *********/
-
-.container-total-office-interior-project {
-    display: flex;
-    width: 1170px;
-    height: 435px;
-    background: #FBFBFB;
-    margin-top: 55px;
-}
-
-.container-image-office-interior-project {
-    width: 670px;
-    height: 435px;
-    background-image: url("images/office-interior.png");
-}
-
-.container-total-text-office-interior-project {
-    width: 500px;
-    height: 435px;
-}
-
-.container-total-title-office-interior-project {
-    display: flex;
-    justify-content: center;
-    align-items: center;  
-    width: 500px;
-    height: 160px;
-}
-
-.container-title-office-interior-project {
-    width: 440px;
-    height: 100px;
-    font-size: 40px;
-    font-weight: 300;
-    color: #BDBDBD;
-
-}
-
-.container-box-text-office-interior-project {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 500px;
-    height: 160px;
-}
-
-.container-text-office-interior-project {
-    width: 440px;
-    height: 174px;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 25px;
-    color: #000000;
-}
-
-.container-total-look-office-interior-project {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 280px;
-    height: 110px;
-}
-
-.container-look-office-interior-project {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 222px;
-    height: 71px;
-    background: #FFFFFF;
-    border: none;
-}
-
-.container-text-look-office-interior-project {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 90px;
-    height: 24px;
-    font-size: 12px;
-    line-height: 12px;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    color: #333333;
-}
-
-.container-arrow-look {
-    width: 24px;
-    height: 10px;
-    background-image: url("images/icon/seta-direita.png");
+.container-document-two {
+    width: 337px;
+    height: 450px;
+    background-image: url("images/document-two.png");
     background-repeat: no-repeat;
 }
 
-/******** SECTION PARKINKG CARS *********/
-
-.container-total-parking-cars {
-    display: flex;
-    width: 1170px;
-    height: 435px;
-    background: #FBFBFB;
-    margin-top: 55px;
-}
-
-.container-image-parking-cars {
-    width: 670px;
-    height: 435px;
-    background-image: url("images/parking-cars.png");
-}
-
-.container-total-text-parking-cars {
-    width: 500px;
-    height: 435px;
-}
-
-.container-total-title-parking-cars {
-    display: flex;
-    justify-content: center;
-    align-items: center;  
-    width: 500px;
-    height: 160px;
-}
-
-.container-title-parking-cars {
-    width: 440px;
-    height: 100px;
-    font-size: 40px;
-    font-weight: 300;
-    color: #BDBDBD;
-
-}
-
-.container-box-text-parking-cars {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 500px;
-    height: 160px;
-}
-
-.container-text-parking-cars {
-    width: 440px;
-    height: 174px;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 25px;
-    color: #000000;
-}
-
-.container-total-look-parking-cars {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 280px;
-    height: 110px;
-}
-
-.container-look-parking-cars {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 222px;
-    height: 71px;
-    background: #FFFFFF;
-    border: none;
-}
-
-.container-text-look-parking-cars {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 90px;
-    height: 24px;
-    font-size: 12px;
-    line-height: 12px;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    color: #333333;
-}
-
-.container-arrow-look {
-    width: 24px;
-    height: 10px;
-    background-image: url("images/icon/seta-direita.png");
+.container-document-three {
+    width: 337px;
+    height: 450px;
+    background-image: url("images/document-three.png");
     background-repeat: no-repeat;
 }
 
@@ -437,7 +181,7 @@ nav a:hover:after {
     background-repeat: no-repeat;
     position: absolute;
     margin-top: 23px;
-    margin-left: 147px;
+    margin-right: 65px;
     width: 53px;
     height: 53px;
 }
@@ -447,7 +191,7 @@ nav a:hover:after {
     background-repeat: no-repeat;
     position: absolute;
     margin-top: 23px;
-    margin-left: 230px;
+    margin-right: -16px;
     width: 53px;
     height: 53px;
 }
@@ -462,10 +206,11 @@ nav a:hover:after {
 
 .container-number-slider {
     display: flex;
+    justify-content: flex-end;
     font-size: 24px;
     font-weight: 200;
     color: #BDBDBD;
-    width: 400px;
+    width: 1150px;
     height: 53px;
     margin-top: 66px;
 }

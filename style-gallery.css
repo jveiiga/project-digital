@@ -24,10 +24,14 @@ ul {
 
 li {
     text-decoration: none;
+    border: 1px solid #FFF;
 }
 
 li a {
     text-decoration: none;
+    display: inline-block;
+    
+    border-width: 1px 0;
 }
 
 /************ CONTAINER HEADER *************/
@@ -49,16 +53,6 @@ header {
     Height: 42px;
 }
 
-.border-up {
-    background-image: url("images/border-detail.png");
-    background-repeat: no-repeat;
-    height: 2px;
-    width: 65px;
-    position: absolute;
-    margin-left: 199px;
-    margin-top: 10px;
-}
-
 nav {
     font-size: 12px;
     letter-spacing: 0.2em;
@@ -66,8 +60,34 @@ nav {
     padding-right: 80px;
 }
 
-nav a{
+nav a {
     color: #333333;
+}
+
+nav a:before {
+    display: block;
+    content: " ";
+    width: 0;
+    height: 1px; 
+    background-color: #333;
+    transition: all 0.5s;
+} 
+    
+nav a:hover:before {
+    width: 100%;
+}
+
+nav a:after {
+    display: block;
+    content: " ";
+    width: 0;
+    height: 1px;
+    background-color: #333;
+    transition: all 0.2s;   
+}
+
+nav a:hover:after {
+    width: 100%;
 }
 
 .container-list-header{
@@ -78,16 +98,6 @@ nav a{
     padding-left: 60px;
 }
  
-.border-low {
-    background-image: url("images/border-detail.png");
-    background-repeat: no-repeat;
-    height: 2px;
-    width: 65px;
-    position: absolute;
-    margin-left: 199px;
-    margin-top: -14px;
-}
-
 /*********** CONTAINER TOTAL **************/
 
 .container-total-page-two {
@@ -119,6 +129,7 @@ nav a{
     font-size: 64px;
     font-weight: bold;
     line-height: 64px;
+    color: #333;
 }
 
 /************* BORDER DETAIL *************/
@@ -130,6 +141,7 @@ nav a{
 }
 
 /********* SECTION IMAGES GALLERY ***********/
+
 
 .container-images-gallery {
     display: flex;
@@ -147,6 +159,8 @@ nav a{
     height: 259px;
 }
 
+/************* IMAGE ONE *************/
+
 .container-image-one {
     display: flex;
     align-items: flex-end;
@@ -154,6 +168,16 @@ nav a{
     height: 260px;
     background-image: url("images/gallery-one.png");
     background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.container-image-one:hover > div {
+    margin: 0;
+}
+
+.container-image-one > div {
+    margin-bottom: -130px;
+    transition: all 0.3s;
 }
 
 .container-text-image-one {
@@ -172,33 +196,158 @@ nav a{
     padding-top: 26px;
 }
 
+/************* IMAGE TWO *************/
+
+
 .container-image-two {
+    display: flex;
+    align-items: flex-end;
     width: 210px;
     height: 260px;
     background-image: url("images/gallery-two.png");
     background-repeat: no-repeat;
+    overflow: hidden;
 }
 
+.container-image-two:hover > div {
+    margin: 0;
+}
+
+.container-image-two > div {
+    margin-bottom: -130px;
+    transition: all 0.3s;
+}
+
+.container-text-image-two    {
+    display: flex;
+    justify-content: center;
+    width: 210px;
+    height: 120px;
+    background: #FBFBFB;
+    font-size: 14px;
+    line-height: 18px;
+}  
+
+.text-image-two {
+    width: 170px;
+    height: 36px;
+    padding-top: 26px;
+}
+
+/************* IMAGE THREE *************/
+
 .container-image-three {
+    display: flex;
+    align-items: flex-end;
     width: 210px;
     height: 260px;
     background-image: url("images/gallery-three.png");
     background-repeat: no-repeat;
+    overflow: hidden;
 }
 
+.container-image-three:hover > div {
+    margin: 0;
+}
+
+
+.container-image-three > div {
+    margin-bottom: -130px;
+    transition: all 0.3s;
+}
+
+.container-text-image-three {
+    display: flex;
+    justify-content: center;
+    width: 210px;
+    height: 120px;
+    background: #FBFBFB;
+    font-size: 14px;
+    line-height: 18px;
+}  
+
+.text-image-three {
+    width: 170px;
+    height: 36px;
+    padding-top: 26px;
+}
+
+/************* IMAGE FOUR *************/
+
 .container-image-four {
+    display: flex;
+    align-items: flex-end;
     width: 210px;
     height: 260px;
     background-image: url("images/gallery-four.png");
     background-repeat: no-repeat;
 }
 
+.container-image-four > div {
+    margin-bottom: -130px;
+    transition: all 0.3s;
+}
+
+.container-image-four:hover > div {
+    margin: 0;
+}
+
+
+.container-text-image-four {
+    display: flex;
+    justify-content: center;
+    width: 210px;
+    height: 120px;
+    background: #FBFBFB;
+    font-size: 14px;
+    line-height: 18px;
+}  
+
+.text-image-four {
+    width: 170px;
+    height: 36px;
+    padding-top: 26px;
+}
+
+/************* IMAGE FIVE *************/
+
 .container-image-five {
+    display: flex;
+    align-items: flex-end;
     width: 210px;
     height: 260px;
     background-image: url("images/gallery-five.png");
     background-repeat: no-repeat;
+    overflow: hidden;
 }
+
+.container-image-five > div {
+    margin-bottom: -130px;
+    transition: all 0.3s;
+}
+
+.container-image-five:hover > div {
+    margin: 0;
+}
+
+.container-text-image-five {
+    display: flex;
+    justify-content: center;
+    width: 210px;
+    height: 120px;
+    background: #FBFBFB;
+    font-size: 14px;
+    line-height: 18px;
+}  
+
+.text-image-five {
+    width: 170px;
+    height: 36px;
+    padding-top: 26px;
+}
+
+
+/************* CONTAINER IMAGE DOWN *************/
 .container-image-down {
     display: flex;
     justify-content: space-between;
@@ -206,41 +355,187 @@ nav a{
     height: 259px;
 }
 
+/************* IMAGE SIX *************/
 
 .container-image-six {
+    display: flex;
+    align-items: flex-end;
     width: 210px;
     height: 260px;
     background-image: url("images/gallery-six.png");
     background-repeat: no-repeat;
+    overflow: hidden;
 }
 
+.container-image-six > div {
+    margin-bottom: -130px;
+    transition: all 0.3s;
+}
+
+.container-image-six:hover > div {
+    margin: 0;
+}
+
+.container-text-image-six {
+    display: flex;
+    justify-content: center;
+    width: 210px;
+    height: 120px;
+    background: #FBFBFB;
+    font-size: 14px;
+    line-height: 18px;
+}  
+
+.text-image-six {
+    width: 170px;
+    height: 36px;
+    padding-top: 26px;
+}
+
+
+/************* IMAGE SEVEN *************/
+
 .container-image-seven {
+    display: flex;
+    align-items: flex-end;
     width: 210px;
     height: 260px;
     background-image: url("images/gallery-seven.png");
     background-repeat: no-repeat;
+    overflow: hidden;
 }
 
+.container-image-seven > div {
+    margin-bottom: -130px;
+    transition: all 0.3s;
+}
+
+.container-image-seven:hover > div {
+    margin: 0;
+}
+.container-text-image-seven {
+    display: flex;
+    justify-content: center;
+    width: 210px;
+    height: 120px;
+    background: #FBFBFB;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.text-image-seven {
+    width: 170px;
+    height: 36px;
+    padding-top: 26px;
+}
+
+/************* IMAGE EIGHT *************/
+
 .container-image-eight {
+    display: flex;
+    align-items: flex-end;
     width: 210px;
     height: 260px;
     background-image: url("images/gallery-eight.png");
     background-repeat: no-repeat;
+    overflow: hidden;
 }
 
+.container-image-eight > div {
+    margin-bottom: -130px;
+    transition: all 0.3s;
+}
+
+.container-image-eight:hover > div {
+    margin: 0;
+}
+
+.container-text-image-eight {
+    display: flex;
+    justify-content: center;
+    width: 210px;
+    height: 120px;
+    background: #FBFBFB;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+
+
+/************* IMAGE NINE *************/
+
 .container-image-nine {
+    display: flex;
+    align-items: flex-end;
     width: 210px;
     height: 260px;
     background-image: url("images/gallery-nine.png");
     background-repeat: no-repeat;
+    overflow: hidden;
 }
 
+.container-image-nine > div {
+    margin-bottom: -130px;
+    transition: all 0.3s;
+}
+
+.container-image-nine:hover > div {
+    margin: 0;
+}
+
+.container-text-image-nine {
+    display: flex;
+    justify-content: center;
+    width: 210px;
+    height: 120px;
+    background: #FBFBFB;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.text-image-nine {
+    width: 170px;
+    height: 36px;
+    padding-top: 26px;
+}
+
+/************* IMAGE TEN *************/
+
 .container-image-ten {
+    display: flex;
+    align-items: flex-end;
     width: 210px;
     height: 260px;
     background-image: url("images/gallery-ten.png");
     background-repeat: no-repeat;
+    overflow: hidden;
 }
+
+.container-image-ten > div {
+    margin-bottom: -130px;
+    transition: all 0.3s;
+}
+
+.container-image-ten:hover > div {
+    margin: 0;
+}
+
+.container-text-image-ten {
+    display: flex;
+    justify-content: center;
+    width: 210px;
+    height: 120px;
+    background: #FBFBFB;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.text-image-ten {
+    width: 170px;
+    height: 36px;
+    padding-top: 26px;
+}
+
 
 /************** SECTION NUMBER SLIDER***************/
 
@@ -255,7 +550,8 @@ nav a{
     border: 1px solid;
     width: 53px;
     height: 53px;
-    color: #F2F2F2;
+    background-color: #ffffff;
+    border: none;
     margin-left: 27px;
 }
 
@@ -344,12 +640,19 @@ nav a{
     background-repeat: no-repeat;
 }
 
-.container-information {
+.container-total-information {
     display: flex;
     flex-direction: column;
     width: 259px;
     height: 306px;
     padding-top: 40px;
+}
+
+.container-information {
+    display: flex;
+    flex-direction: column;
+    width: 259px;
+    height: 288px;
 }
 
 .container-title-information {
@@ -364,6 +667,7 @@ nav a{
 }
 
 .container-list-information {
+    display: contents;
     line-height: 34px;
 }
 
