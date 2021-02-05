@@ -295,13 +295,16 @@ nav a:hover:after {
     padding-top: 40px;
 }
 
-.container-title-contact {
+.container-total-title-contact {
     padding-bottom: 27px;
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 64px;
+    color: #BDBDBD;
 }
 
 .container-title-contact a{
-    font-size: 16px;
-    font-weight: bold;
+    
     color: #FFFFFF;
     
 }
