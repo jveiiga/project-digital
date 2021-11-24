@@ -1,7 +1,7 @@
 <h1 align="center">Project Digital&nbsp🏢<h1/>
 
   <img alt="GitHub" src="https://img.shields.io/github/license/jveiiga/project-digital">
-  <img alt="GitHub" src="https://img.shields.io/badge/jveiiga-project%20digital-yellow">
+  <img alt="GitHub" src="https://img.shields.io/badge/jveiiga-project%20digital-white">
  
 <h3 align="center">Layout Free Figma<h3/> 
 <h3 align="center">Conceitos utilizados a partir da minha base de conhecimento (Júnior).<h3/>
@@ -14,12 +14,19 @@
 <h2 align="center"><a href="https://jveiiga.github.io/project-digital/" alt="MNTN" target="_blank">Clique aqui para ver meu projeto final!<a/><h2> 
   
 ## 🖥  Imagem
- 
+  
+<details>  
+<summary>Clique para ver imagens do projeto</summary>  
+
 ![_Users_jefersonveiga_Documents_new-project_project-digital_index html](https://user-images.githubusercontent.com/57195630/126840920-1bbd8aa6-e628-46c1-80c1-91cd6d963d88.png)
 ![_Users_jefersonveiga_Documents_new-project_project-digital_gallery html](https://user-images.githubusercontent.com/57195630/126841021-26e32c00-545d-43f1-aeaf-af6b29bbd15b.png)
 ![_Users_jefersonveiga_Documents_new-project_project-digital_projects html](https://user-images.githubusercontent.com/57195630/126841096-e979c571-ce2e-48c5-b28b-4eda0c973739.png)
 ![_Users_jefersonveiga_Documents_new-project_project-digital_certificate html](https://user-images.githubusercontent.com/57195630/126841140-c6f35c51-7583-4cef-b564-14c6e34b0061.png)
 ![_Users_jefersonveiga_Documents_new-project_project-digital_contact html](https://user-images.githubusercontent.com/57195630/126841211-fe1b92da-a3ae-4d63-9150-5eb6943620b2.png)
+  
+</details>
+ 
+
 
 ## 🌐 Linguagens e tecnologias utilizadas
 <a href="https://www.figma.com/file/zRW9mk7ySQF8EUASt8v4jR/Website-of-architects-(Community)?node-id=0%3A1" target="_blank"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40" /> </a>
