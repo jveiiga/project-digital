@@ -1,7 +1,7 @@
 <h1 align="center">Project Digital&nbsp🏢<h1/>
 
-  <img alt="GitHub" src="https://img.shields.io/github/license/jveiiga/project-digital">
-  <img alt="GitHub" src="https://img.shields.io/badge/jveiiga-project%20digital-white">
+ <img alt="GitHub" src="https://img.shields.io/github/license/jveiiga/project-digital">
+ <img alt="GitHub" src="https://img.shields.io/badge/jveiiga-project%20digital-white">
  
 <h3 align="center">Layout Free Figma<h3/> 
 <h3 align="center">Conceitos utilizados a partir da minha base de conhecimento (Júnior).<h3/>
