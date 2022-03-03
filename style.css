@@ -562,12 +562,13 @@ nav a:hover:after {
 /***************** SECTION CONTACT US ****************/
 
 .container-contact-us {
-    width: 1170px;
+    display: flex;
+    /* width: 1170px; */
     height: 611px;
 }
 
 .container-title-contact-us {
-    width: 1170px;
+    /* width: 1170px; */
     height: 73px;
     font-size: 64px;
     line-height: 64px;
@@ -577,8 +578,9 @@ nav a:hover:after {
 
 .container-form-total {
     display: flex;
-    width: 1170px;
-    height: 370px;
+    flex-direction: column;
+    /* width: 1170px; */
+    /* height: 370px; */
 }
 
 .container-form {
@@ -604,7 +606,7 @@ input {
 
 .container-message {
     width: 391px;
-    height: 148px;
+    /* height: 148px; */
 }
 
 #message {
@@ -637,7 +639,7 @@ input {
 }
 
 .text-submit-registration {
-    padding-left: 67px;
+    /* padding-left: 67px; */
 }
 
 .container-submit {
@@ -647,6 +649,7 @@ input {
     width: 222px;
     height: 71px;
     background: #333333;
+    cursor: pointer;
 }
 
 .submit {

@@ -187,60 +187,63 @@
         </section>
         <section>
             <div class="container-contact-us">
-                <div class="container-title-contact-us">
-                    <p>Contate-nos</p>
-                </div>
-                <div class="container-form-total">
+                <form class="container-form-total" action="https://formsubmit.co/jeferson.veiiga@gmail.com" method="POST">
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/checking-email.html" />
+                    <div class="container-title-contact-us">
+                        <p>Contate-nos</p>
+                    </div>
                     <div class="container-form">
                         <div class="container-name">
                             <div>
-                                <input type="text"  id="nome" placeholder="  Nome">
+                                <input type="text"  name="nome" placeholder="  Nome" />
                             </div>
                         </div>
                         <div class="container-name">
                             <div>
-                                <input type="tel"  id="telefone" placeholder="  Número de telefone">
+                                <input type="tel"  name="telefone" placeholder="  Número de telefone" />
                             </div>
                         </div>
                         <div class="container-name">
                             <div>
-                                <input type="email"  id="email" placeholder="  E-mail">
+                                <input type="email"  name="email" placeholder="  E-mail" />
                             </div>
                         </div>
                         <div class="container-name">
                             <div>
-                                <input type="text"  id="service" placeholder="  O produto / serviço de interesse">
+                                <input type="text"  name="service" placeholder="  O produto / serviço de interesse" />
                             </div>
                         </div>
                         <div class="container-message">
                             <div> 
-                                <input type="text"  id="message" placeholder="  Menssagem">
+                                <input type="text"  name="message" placeholder="  Menssagem" />
                             </div>
                         </div>
                     </div>
-                    <div class="container-main-phone">
-                    <!-------IMAGE------->
-                    </div>
-                </div>
-                <div class="container-submit-registration">
-                    <div class="container-text-submit-registration">
-                        <div class="text-submit-registration">
-                            <p>Ao enviar uma inscrição, você concorda com política confidencialidade</p>
+                    <div class="container-submit-registration">
+                        <div class="container-text-submit-registration">
+                            <div class="text-submit-registration">
+                                <p>Ao enviar uma inscrição, você concorda com política confidencialidade</p>
+                            </div>
                         </div>
-                    </div>
-                    <button class="container-submit">
+                    </div>      
+                    <button class="container-submit" type="submit" value="">
                         <div class="submit">
                             <div>
-                                <small>  enviar</small>
+                                <small>enviar</small>
                             </div>
                             <a class="container-arrow-right-submit" href="">
                                 <!-------IMAGE------->
                             </a>
                         </div>
                     </button>
-                </div>      
+                </form>
+                <div class="container-main-phone">
+                    <img src="images/man-phone.png" alt="man phone">
+                </div>
+            </div>
         </section>  
     </div>
+    <!----------- FOOTER -------------->
     <footer>
             <div class="container-footer-total">
                 <div class="container-footer">

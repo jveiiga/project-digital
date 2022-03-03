@@ -1,0 +1,16 @@
+.container-totatl-checking-email {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-totatl-checking-email a {
+    text-decoration: none;
+    color: orangered;
+}
+
+.container-totatl-checking-email a:hover {
+    font-size: 19px;
+}
+
